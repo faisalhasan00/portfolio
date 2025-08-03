@@ -1,98 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Responsive Portfolio Website </title>
-    <link rel="stylesheet" href="index.css" />
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- Move to up button -->
-    <div class="scroll-button">
-      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+<head>
+  <meta charset="UTF-8" />
+  <title>Mohammed Faisal Hasan | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Mohammed Faisal Hasan - Frontend Developer and Web Designer" />
+  <meta name="author" content="Mohammed Faisal Hasan" />
+  <link rel="stylesheet" href="index.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn"><i class="fas fa-times"></i></div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/mohammed-faisal-hasan-495a1a220/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
-    <!-- navgaition menu -->
-    <nav>
-      <div class="navbar">
-        <div class="logo"><a href="#">Portfolio.</a></div>
-        <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-          <!-- <label class="theme-toggle">
-            <input type="checkbox" id="theme-switch">
-            <span class="slider"></span>
-        </label> -->
-        
+    <div class="menu-btn"><i class="fas fa-bars"></i></div>
+  </nav>
 
-        </ul>
-        <div class="media-icons">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
-        </div>
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello, My name is</div>
+        <div class="text-two">Mohammed Faisal <span>Hasan</span></div>
+        <div class="text-three">I'm a Front-End Developer</div>
       </div>
-      <div class="menu-btn">
-        <i class="fas fa-bars"></i>
+      <div class="button">
+        <button><a href="https://api.whatsapp.com/send?phone=918106342858">Hire Me</a></button>
       </div>
-      
-    </nav>
+    </div>
+  </section>
 
-    <!-- Home Section Start -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <div class="text">
-          <div class="text-one">Hello, My name is</div>
-          <div class="text-two">Mohammed Faisal <span>Hasan</span></div>
-          <div class="text-three">I' am a front-end developer.</div>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="raj.jpg" alt="Faisal Hasan" />
         </div>
-        <div class="button">
-          <button><a href="https://api.whatsapp.com/send?phone=918106342858">Hire Me</a></button>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section Start -->
-    <section class="about" id="about">
-      <div class="content">
-        <div class="title"><span id="skii">About Me</span></div>
-        <div class="about-details">
-          <div class="left">
-            <img src="raj.jpg" alt="" />
-          </div>
-          <div class="right">
-            <div class="topic">Designing Is My Passion</div>
-            <hr>
-            <p>
-                Hello! I’m <strong>Faisal</strong>, a dedicated web developer with a passion for creating dynamic and responsive applications. With expertise in <strong>JavaScript</strong>, <strong>React</strong>, and other modern web technologies, I thrive on building user-centric solutions that enhance the digital experience.
-            </p>
-            <p>
-                My journey into tech began with a fascination for problem-solving and design, leading me to explore the world of coding. Since then, I’ve been committed to continuous learning and innovation, staying updated on the latest industry trends and best practices.
-            </p>
-            <p>
-                I believe in the power of collaboration and creativity, which fuels my approach to every project. I aim to merge aesthetics with functionality, ensuring that my applications not only captivate users but also perform seamlessly.
-            </p>
-            <div class="button">
+        <div class="right">
+          <div class="topic">Designing Is My Passion</div>
+          <hr />
+          <p>Hello! I’m <strong>Faisal</strong>, a dedicated web developer with a passion for creating dynamic and responsive applications. With expertise in <strong>JavaScript</strong>, <strong>React</strong>, and modern web technologies, I thrive on building user-centric solutions.</p>
+          <p>My journey into tech began with a fascination for design and problem-solving, leading me into coding. I love staying updated with the latest industry trends and building digital experiences that matter.</p>
+          <p>I believe in creativity and collaboration. I aim to merge aesthetics with functionality so that users enjoy beautiful and smooth experiences.</p>
+          <div class="button">
+            <a href="Faisal Hasan.pdf" download>
               <button>Download CV</button>
-            </div>
+            </a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- faltu -->
-    <div id="particles-js"></div>
+    </div>
+  </section>
 
-     <!--  -->
+  <!-- Background Particles (optional) -->
+  <div id="particles-js"></div>
 
-   <!-- My Skill Section Start -->
-<section class="skills" id="skills">
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
     <div class="content">
       <div class="title">My Skills</div>
       <div class="skills-details">
@@ -108,7 +96,7 @@
               <li>CSS</li>
               <li>JavaScript</li>
               <li>Java</li>
-              <li>SQL </li>
+              <li>SQL</li>
             </ul>
           </div>
           <div class="box">
@@ -127,8 +115,7 @@
               <li>OOP Concepts</li>
             </ul>
           </div>
-        </div>
-        <div class="box">
+          <div class="box">
             <div class="topic">Soft Skills</div>
             <ul>
               <li>Problem-Solving</li>
@@ -140,80 +127,73 @@
       </div>
     </div>
   </section>
-  
-    
-    <!-- projec start -->
-    <section class="projects">
-        <div class="content">
-            <h2 class="section-title">My Projects</h2>
-            <div class="project-cards">
-                <div class="project-card">
-                    <img src="bankmap.webp" alt="Project 1">
-                    <h3>Bank Managment</h3>
-                    <p>The Bank Management Project is a system for managing bank accounts, transactions, and customer data. It supports account creation, deposits, withdrawals, transfers, and balance inquiries, all with a secure and user-friendly interface.</p>
-                    <a href="https://github.com/faisalhasan00/Bank-Managment" class="view-btn">View Project</a>
-                </div>
-                <div class="project-card">
-                    <img src="clg.jpeg" alt="Project 2">
-                    <h3>College</h3>
-                    <p>The College Website Project is a responsive landing page designed to showcase a fictional college. It features a modern and user-friendly interface, highlighting key aspects such as the college's mission, academic programs, campus life, and admissions process.</p>
-                    <a href="https://faisalhasan00.github.io/Colloge/" class="view-btn">View Project</a>
-                </div>
-                <div class="project-card">
-    <img src="Quickprepp.png" alt="Quickprepp Project">
-    <h3>Quickprepp</h3>
-    <p>An AI-powered learning platform offering resume building, mock interviews, video courses, and study plans tailored to user goals. Built using MERN stack with AI integrations from OpenAI, Cohere, and Deepgram.</p>
-    <a href="https://quickprepp.in/" target="_blank" class="view-btn">View Project</a>
-</div>
 
-            </div>
+  <!-- Projects Section -->
+  <section class="projects">
+    <div class="content">
+      <h2 class="section-title">My Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img src="bankmap.webp" alt="Bank Management Project" />
+          <h3>Bank Management</h3>
+          <p>A system for managing bank accounts, transactions, and customer data. Features include secure account handling, balance tracking, and transfers.</p>
+          <a href="https://github.com/faisalhasan00/Bank-Managment" class="view-btn">View Project</a>
         </div>
-    </section>
-    
-    
-     <!-- project end -->
 
-    <!-- My Services Section Start -->
-    <section class="services" id="services">
-  <div class="content">
-    <div class="title"><span>My Services</span></div>
-    <div class="boxes">
-      <div class="box">
-        <div class="icon">
-          <i class="fas fa-desktop"></i>
+        <div class="project-card">
+          <img src="clg.jpeg" alt="College Website Project" />
+          <h3>College Website</h3>
+          <p>A responsive landing page showcasing a fictional college, including mission, programs, and admissions. Built with clean UI/UX principles.</p>
+          <a href="https://faisalhasan00.github.io/Colloge/" class="view-btn">View Project</a>
         </div>
-        <div class="topic">Web Development</div>
-        <p>I build responsive, scalable, and modern websites using the latest web technologies including HTML, CSS, JavaScript, and frameworks like React and Node.js. Perfect for portfolios, businesses, and startups.</p>
+
+        <div class="project-card">
+          <img src="Quickprepp.png" alt="Quickprepp Project" />
+          <h3>Quickprepp</h3>
+          <p>An AI-powered learning platform offering resume building, mock interviews, and courses. Built with the MERN stack and OpenAI, Cohere, Deepgram APIs.</p>
+          <a href="https://quickprepp.in/" class="view-btn" target="_blank">View Project</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-    <!-- Contact Me section Start -->
-<section class="contact" id="contact">
-  <div class="content">
-    <div class="title"><span>Contact Me</span></div>
-    <div class="text">
-      <div class="topic">Have a Project in Mind?</div>
-      <p>
-        I'm always excited to collaborate on new ideas—whether it's a web app, AI-powered platform, or digital product. Let's discuss how we can bring your vision to life with modern tech and creative solutions.
-      </p>
-      <div class="button">
-        <a href="mailto:yourname@example.com">
-          <button>Let's Chat</button>
-        </a>
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="content">
+      <div class="title"><span>My Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon"><i class="fas fa-desktop"></i></div>
+          <div class="topic">Web Development</div>
+          <p>I build responsive and dynamic websites using HTML, CSS, JavaScript, React, Node.js, and MongoDB. Ideal for personal, business, and startup websites.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-    <!-- Footer Section Start -->
-    <footer>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
       <div class="text">
-        <span>Created By <a href="#">Coding.faisal</a> | &#169; 2023 All Rights Reserved</span>
+        <div class="topic">Have a Project in Mind?</div>
+        <p>I'm excited to collaborate on new ideas—whether it's a website, app, or digital solution. Let's build something amazing together!</p>
+        <div class="button">
+          <a href="mailto:faisal.webdev@gmail.com">
+            <button>Let's Chat</button>
+          </a>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="index.js"></script>
-  </body>
+  <!-- Footer -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Coding.faisal</a> | &#169; 2025 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
 </html>
